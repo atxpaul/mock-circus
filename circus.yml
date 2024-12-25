@@ -1,0 +1,11 @@
+- route: /oil
+  entries: 1000
+  data:
+    - month: date.month
+      price: finance.amount
+
+- route: /marketplacepnl
+  data:
+    - compay: company.name
+      stockMarketEvaluation: finance.amount
+      timestamp: date.recent

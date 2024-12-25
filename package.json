@@ -1,0 +1,19 @@
+{
+    "name": "mock-circus",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "src/app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@faker-js/faker": "^9.3.0",
+        "fastify": "^5.2.0",
+        "js-yaml": "^4.1.0"
+    }
+}
